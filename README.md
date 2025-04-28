@@ -279,7 +279,7 @@ Let's connect our Client1 computer to the `mydomain.com` domain.
     * Change the **Computer name** to `Client1`.
     * Under "Member of", select **Domain:** and type `mydomain.com`.
     * Click "OK".
-    * A window will pop up asking for credentials. Enter the username and password of an account authorized to join computers to the domain. You can use the **non-admin user account** you added to `names.txt` (e.g., `jmatakor` if your name was Josh Matakor) and the `Password1` password. (Alternatively, your `a-YourUserName` admin account would also work).
+    * A window will pop up asking for credentials. Enter the username and password of an account authorized to join computers to the domain. You can use the **non-admin user account** you added to `names.txt` (e.g., `jlagerstrom` if your name was JJ Lagerstrom) and the `Password1` password. (Alternatively, your `a-YourUserName` admin account would also work).
     * Click "OK". You should see a "Welcome to the mydomain.com domain" message. Click "OK".
     * Click "OK" to restart the computer. Click "Close", then "Restart Now".
 
@@ -290,7 +290,7 @@ The final test! Log in to the client computer using an Active Directory account.
 1.  After Client1 restarts, you'll be at the login screen. It might still show the local `user` account.
 2.  Click "Other user" in the bottom left.
 3.  Notice it now says "Sign in to: MYDOMAIN" underneath the password field.
-4.  Enter the username of the account you created for yourself via the PowerShell script (e.g., `jmatakor`, *not* the `a-jmatakor` admin one this time).
+4.  Enter the username of the account you created for yourself via the PowerShell script (e.g., `jlagerstrom`, *not* the `a-jlagerstrom` admin one this time).
 5.  Enter the password: `Password1`.
 6.  Press Enter. Windows will set up your profile for the first time on this machine.
 
